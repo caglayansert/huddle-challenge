@@ -66,9 +66,14 @@ h3 {
 	box-shadow: 1px 1px 2px 2px #b8b8b8;
 }
 
-.grow-together {
-  width:200px;
-  height:200px
+.text {
+	flex:3
+}
+
+.card-image{
+	flex:1;
+	width:200px;
+	height: 200px;
 }
 
 .middle-middle {
@@ -81,10 +86,6 @@ h3 {
 	box-shadow: 1px 1px 2px 2px #b8b8b8;
 }
 
-.flowing-conversation {
-  width: 200px;
-  height: 200px;
-}
 
 .bottom-middle {
 	display: flex;
@@ -96,14 +97,29 @@ h3 {
 	box-shadow: 1px 1px 2px 2px #b8b8b8;
 }
 
-.your-users {
-  width: 200px;
-  height: 200px;
+.bottom-bottom {
+	display: flex;
+	flex-flow:row; 
+	padding:0 5%;
+	margin-top:-5rem
 }
+
+.icon-with-text {
+	display: flex;
+	flex-flow:row;
+	align-items:flex-start;
+	margin-bottom:1rem;
+}
+
 
 .bottom-container {
   background-color: hsl(192, 100%, 9%);
   margin: 5% 0 -5% 0 
+}
+
+.bottom-card {
+	display: flex;
+	transform:translateY(-50%)
 }
 
 .abc {
@@ -133,6 +149,22 @@ h3 {
 .logo2 {
   margin-bottom: 20px;
 }
+
+.footer-right {
+	flex: 5;
+	display:flex;
+	justify-content:flex-end;
+	color:#fff
+}
+.footer-block{
+	margin-right: 10rem;
+}
+
+.social-media {
+	align-self: flex-start;
+	margin-top:18px
+}
+
 
 .copyright {
   font-size: 10px;
